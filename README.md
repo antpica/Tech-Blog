@@ -1,4 +1,4 @@
-# Tech-Bar
+# Tech-Blog
 # Description
 This is a dynamic blog site that follows the Model View Controller pattern. It utilizes Handlebars.js for templates, Sequelize as the ORM, and express-session for authentication. The homepage showcases published blog posts, with easy access to the homepage, dashboard, and login option.
 
