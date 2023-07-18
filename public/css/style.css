@@ -1,0 +1,48 @@
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #065b83;
+}
+
+#logout {
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #1b5d7c;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+#logout:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
